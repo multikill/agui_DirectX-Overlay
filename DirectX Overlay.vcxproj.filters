@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sourcesFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="headerFiles">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="agui">
+      <UniqueIdentifier>{3a12f7fc-5e47-4c81-9f56-0ca13b352985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>sourcesFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawings.cpp">
+      <Filter>sourcesFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>sourcesFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="aconsole.cpp">
+      <Filter>agui</Filter>
+    </ClCompile>
+    <ClCompile Include="adrawing.cpp">
+      <Filter>agui</Filter>
+    </ClCompile>
+    <ClCompile Include="agui.cpp">
+      <Filter>agui</Filter>
+    </ClCompile>
+    <ClCompile Include="ainput.cpp">
+      <Filter>agui</Filter>
+    </ClCompile>
+    <ClCompile Include="amenu.cpp">
+      <Filter>agui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX.h">
+      <Filter>headerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawings.h">
+      <Filter>headerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>headerFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="aconsole.hpp">
+      <Filter>agui</Filter>
+    </ClInclude>
+    <ClInclude Include="adrawing.hpp">
+      <Filter>agui</Filter>
+    </ClInclude>
+    <ClInclude Include="agui.hpp">
+      <Filter>agui</Filter>
+    </ClInclude>
+    <ClInclude Include="ainput.hpp">
+      <Filter>agui</Filter>
+    </ClInclude>
+    <ClInclude Include="amenu.hpp">
+      <Filter>agui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
